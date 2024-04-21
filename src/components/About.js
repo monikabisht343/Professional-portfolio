@@ -11,10 +11,31 @@ const About = () => {
 <p className="pb-5">
           <br></br>I am a proficient Full Stack Developer with a strong focus "A results-oriented Full Stack Developer with 3 years of industry experience and 4 years of freelancing expertise. Skilled in a variety of technologies including WordPress, PHP, Laravel, and the MERN stack. Seeking a remote role to contribute innovative solutions and deliver top-quality projects.". I have demonstrated exceptional leadership capabilities while overseeing and directing media operations in North America and the APAC region. I have a proven track record of enhancing team performance, fostering customer loyalty, and cultivating 
           collaborative alliances with 
+
+         
     
 </p>
 
-
+<div className="bubble"></div>
+        <div className="bubble"></div>
+        <div className="bubble"></div>
+        <div className="bubble"></div>
+        <div className="bubble"></div>
+        <div className="bubble"></div>
+        <div className="bubble"></div>
+        <div className="bubble"></div>
+        <div className="bubble"></div>
+        <div className="bubble"></div>
+        <div className="bubble"></div>
+        <div className="bubble"></div>
+        <div className="bubble"></div>
+        <div className="bubble"></div>
+        <div className="bubble"></div>
+        <div className="bubble"></div>
+        <div className="bubble"></div>
+        <div className="bubble"></div>
+        <div className="bubble"></div>
+        <div className="bubble"></div>
  </div>
 <div className="about-img">
     <img src={AboutImg}
