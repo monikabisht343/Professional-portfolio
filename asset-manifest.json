@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.dbc1e228.css",
+    "main.js": "/static/js/main.5d81d671.js",
+    "static/js/453.d7db7410.chunk.js": "/static/js/453.d7db7410.chunk.js",
+    "static/media/bombas.png": "/static/media/bombas.4aea4b4e253039bc9ac4.png",
+    "static/media/Mtech_CV.pdf": "/static/media/Mtech_CV.e962243b35c90b93b687.pdf",
+    "static/media/wondershare.png": "/static/media/wondershare.c4bb48e657ecf7ae6618.png",
+    "static/media/cloth.png": "/static/media/cloth.9685541cb3f1481a4090.png",
+    "static/media/university.png": "/static/media/university.cc7604d3edbc7e2c2091.png",
+    "static/media/office.png": "/static/media/office.1b178a1332df34d0c0a6.png",
+    "static/media/Farm.png": "/static/media/Farm.11f7a607ba7442ba1128.png",
+    "static/media/portfolioWebsite.png": "/static/media/portfolioWebsite.c4e22581e91f87076e6d.png",
+    "static/media/resume.png": "/static/media/resume.00c3b2522f411942988c.png",
+    "static/media/graphtal.png": "/static/media/graphtal.e78873377694c3856d62.png",
+    "static/media/hero-img.png": "/static/media/hero-img.844ef34846be4a4e400d.png",
+    "static/media/logo.png": "/static/media/logo.ee6b8d3727a0e48668b2.png",
+    "static/media/Aimg.png": "/static/media/Aimg.55274c6e6d374a9ba4df.png",
+    "index.html": "/index.html",
+    "main.dbc1e228.css.map": "/static/css/main.dbc1e228.css.map",
+    "main.5d81d671.js.map": "/static/js/main.5d81d671.js.map",
+    "453.d7db7410.chunk.js.map": "/static/js/453.d7db7410.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dbc1e228.css",
+    "static/js/main.5d81d671.js"
+  ]
+}
