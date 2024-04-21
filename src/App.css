@@ -1,0 +1,205 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* App.css */
+.mobile-nav {
+  @apply block md:hidden fixed top-10 py-2 w-full h-full bg-gray-900 duration-500;
+} 
+
+nav li a {
+  @apply px-4 py-5 text-lg;
+}
+
+nav li a:hover {
+  color: #7477FF;
+}
+
+/* hero */
+h1 {
+  font-family: 'Pacifico', cursive;
+  line-height: 1.5 !important;
+}
+
+h1{
+  font-family: 'Pacifico', cursive;
+  line-height: 1.5 !important;
+}
+
+
+/* color */
+.bg-primary {
+  background: #0F172A;
+}
+
+.bg-secondery {
+  background: #1E293B;
+}
+
+.bg-accent {
+  background: #7477FF;
+}
+
+.text-accent {
+  color: #7477FF;
+} 
+
+/* Theme Dark & Light Mode */
+
+:root {
+  --background-color: #fff;
+  --text-color: #333;
+  --link-color: #0066ff;
+}
+
+body.dark {
+  --background-color: #333;
+  --text-color: #fff;
+  --link-color: #0096ff;
+}
+
+/* Bubble */
+
+
+
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+a {
+  color: var(--link-color);
+}
+
+.logo-img {
+  width: 50px;
+  height: 50px;
+}
+.slide-text {
+  display: inline-block; /* Allows the span to be animated as a block */
+  animation: slideIn 1.5s ease-out forwards; /* Animation name, duration, easing, and fill-mode */
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%); /* Start off the screen to the left */
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0); /* End aligned normally */
+    opacity: 1;
+  }
+}
+
+
+.bubble-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1; /* Ensure bubbles are behind all other content */
+}
+
+.bubble {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: radial-gradient(circle, rgba(116,119,255,0.8) 0%, rgba(116,119,255,0.2) 100%);
+  border-radius: 50%;
+  opacity: 0.6;
+  animation: floatBubbles 20s infinite linear;
+  bottom: -150px; /* Start below the screen */
+}
+
+/* Example of animation for floating effect */
+@keyframes floatBubbles {
+  0% {
+    transform: translateY(0) translateX(0);
+  }
+  100% {
+    transform: translateY(-100vh) translateX(50vw); /* Move bubbles up by full height of the viewport and horizontally a bit */
+    opacity: 0;
+  }
+}
+/* bubble */
+/* Ensure bubbles are behind all other content */
+.bubble-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+
+/* Example of animation for floating effect */
+@keyframes floatBubbles {
+  0% {
+    transform: translateY(0) translateX(0);
+  }
+  100% {
+    transform: translateY(-100vh) translateX(50vw);
+    opacity: 0;
+  }
+}
+
+/* Common styles for bubbles */
+.bubble {
+  position: absolute;
+  background: radial-gradient(circle, rgba(116, 119, 255, 0.8) 0%, rgba(116, 119, 255, 0.2) 100%);
+  border-radius: 50%;
+  opacity: 0.6;
+  animation: floatBubbles 20s infinite linear;
+}
+
+/* Sizing variations */
+.bubble:nth-child(1),
+.bubble:nth-child(2) {
+  width: 80px;
+  height: 80px;
+}
+
+.bubble:nth-child(3),
+.bubble:nth-child(4) {
+  width: 60px;
+  height: 60px;
+}
+
+.bubble:nth-child(5),
+.bubble:nth-child(6) {
+  width: 100px;
+  height: 100px;
+}
+
+/* Random positioning for bubbles */
+.bubble:nth-child(2) {
+  top: 20%;
+  left: 10%;
+}
+
+.bubble:nth-child(4) {
+  top: 50%;
+  left: 30%;
+}
+
+.bubble:nth-child(5) {
+  top: 80%;
+  left: 50%;
+}
+
+.bubble:nth-child(8) {
+  top: 30%;
+  left: 70%;
+}
+
+.bubble:nth-child(10) {
+  top: 60%;
+  left: 90%;
+}
+
+/* Add more nth-child selectors for additional bubbles */
